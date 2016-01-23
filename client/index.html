@@ -4,11 +4,19 @@
   <meta charset="utf-8">
   <title>post.it</title>
   <link rel="stylesheet" href="index.css">
-  <script src="script.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
+  <script src="index.js"></script>
 </head>
 <body>
 	<h1>POST.IT</h1>
 
-	
+	<div style="position: absolute; top: 3px; right: 3px;">
+	  me : <span id="username"></span>
+	  <input type="button" id="resetname" value="reset username">
+	</div>
+
+	<div id="content-wrap">
+
+	  </div>
 </body>
 </html>

@@ -1,11 +1,46 @@
 body, html {
-	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0px;
 	left: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 h1 {
 	text-align: center;
 }
+
+.postIt {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+.postIt .title {
+    text-align: center;
+    font-family: tahoma;
+    padding: 5px;
+    font-weight: bold;
+    border-bottom: 1px solid #cfcfcf;
+}
+.postIt .content {
+    font-family: tahoma;
+    position: relative;
+    height: 140px;
+    overflow: auto;
+    width: 195px;
+    padding: 3px;
+}
+.postIt .LM {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    font-family: tahoma;
+    padding: 5px;
+    font-style: italic;
+    font-size: 13px;
+    color: #cfcfcf;
+}
+
